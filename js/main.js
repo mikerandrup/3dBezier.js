@@ -32,7 +32,7 @@ window.onload = function(exports, Mesh, Models) {
 
 		Mesh.drawMesh(_context);
 		
-		//_canvasEl.addEventListener("mousemove", methods.updateScreen, false);
+		_canvasEl.addEventListener("mousemove", methods.updateScreen, false);
 		//_canvasEl.addEventListener("touchmove", methods.updateScreen, false);
 		
 	};
